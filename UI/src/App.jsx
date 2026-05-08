@@ -47,6 +47,37 @@ function LoadingScreen() {
   )
 }
 
+function Navbar() {
+  const { t } = useTranslation()
+
+  return (
+    <header className="sticky top-0 z-30 border-b border-white/10 bg-slate-950/95 backdrop-blur-xl">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-6 text-sm text-slate-300 sm:px-8 lg:px-10">
+        <div className="flex items-center gap-3 text-white">
+          <div className="grid h-11 w-11 place-items-center rounded-3xl bg-white/10 shadow-glow backdrop-blur-xl ring-1 ring-white/10">
+            <Sparkles className="h-5 w-5 text-amber-200" />
+          </div>
+          <div>
+            <p className="font-semibold">{t('brand.name')}</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-slate-400">{t('brand.tagline')}</p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-4">
+          <nav className="flex flex-wrap items-center gap-4">
+            <Link to="/" className="transition hover:text-emerald-300">{t('nav.home')}</Link>
+            <Link to="/prayer-times" className="transition hover:text-emerald-300">{t('nav.prayerTimes')}</Link>
+            <Link to="/live-haram" className="transition hover:text-emerald-300">Live Haram</Link>
+            <Link to="/adhkar" className="transition hover:text-emerald-300">Adhkar</Link>
+            <Link to="/quran" className="transition hover:text-emerald-300">{t('nav.quran')}</Link>
+          </nav>
+          <LanguageToggle />
+        </div>
+      </div>
+    </header>
+  )
+}
+
 const quranFeatures = [
   {
     titleKey: 'features.fullQuranReading',
@@ -116,30 +147,6 @@ function HomePage() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 py-8 sm:px-8 lg:px-10">
-        <header className="flex flex-wrap items-center justify-between gap-5 border-b border-white/10 pb-5 text-sm text-slate-300">
-          <div className="flex items-center gap-3 text-white">
-            <div className="grid h-11 w-11 place-items-center rounded-3xl bg-white/10 shadow-glow backdrop-blur-xl ring-1 ring-white/10">
-              <Sparkles className="h-5 w-5 text-amber-200" />
-            </div>
-            <div>
-              <p className="font-semibold">{t('brand.name')}</p>
-              <p className="text-xs uppercase tracking-[0.3em] text-slate-400">{t('brand.tagline')}</p>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap items-center gap-4">
-            <nav className="flex flex-wrap items-center gap-4">
-              <Link to="/prayer-times" className="transition hover:text-emerald-300">{t('nav.prayerTimes')}</Link>
-              <Link to="/live-haram" className="transition hover:text-emerald-300">Live Haram</Link>
-              <Link to="/adhkar" className="transition hover:text-emerald-300">Adhkar</Link>
-              <a href="#ayah" className="transition hover:text-emerald-300">{t('nav.dailyAyah')}</a>
-              <a href="#features" className="transition hover:text-emerald-300">{t('nav.features')}</a>
-              <Link to="/quran" className="transition hover:text-emerald-300">{t('nav.quran')}</Link>
-            </nav>
-            <LanguageToggle />
-          </div>
-        </header>
-
         <section className="grid gap-10 py-16 lg:grid-cols-[1.55fr_1fr] lg:items-center lg:gap-12">
           <motion.div
             className="space-y-8"
@@ -188,7 +195,7 @@ function HomePage() {
                 {t('heroStats.description')}
               </p>
               <div className="flex justify-center">
-                <div className="grid grid-cols-5 gap-4 text-center">
+                <div className="grid grid-cols-6 gap-4 text-center">
                   <div className="space-y-2">
                     <div className="text-2xl">🌅</div>
                     <div className="text-xs text-slate-400">{t('prayerNames.Fajr')}</div>
@@ -204,6 +211,10 @@ function HomePage() {
                   <div className="space-y-2">
                     <div className="text-2xl">🌇</div>
                     <div className="text-xs text-slate-400">{t('prayerNames.Asr')}</div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="text-2xl">🌆</div>
+                    <div className="text-xs text-slate-400">{t('prayerNames.Maghrib')}</div>
                   </div>
                   <div className="space-y-2">
                     <div className="text-2xl">🌙</div>
@@ -336,6 +347,7 @@ function App() {
   return (
     <Router>
       <AudioProvider>
+        <Navbar />
         <Suspense fallback={<LoadingScreen />}>
           <Routes>
             <Route path="/" element={<HomePage />} />

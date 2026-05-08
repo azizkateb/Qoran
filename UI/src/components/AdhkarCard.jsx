@@ -42,10 +42,14 @@ export function AdhkarCard({ adhkar, isCompleted, onToggle, onRepeatChange, curr
       </div>
 
       <div className="relative p-6 space-y-5">
-        <div className="flex items-start justify-between gap-4">
-          <div className="flex-1 min-w-0">
-            <h3 className="text-xl font-semibold text-slate-100 arabic-text">{adhkar.title}</h3>
-            <p className="text-sm text-slate-400 mt-2 leading-relaxed">{adhkar.text}</p>
+        <div className="flex flex-col items-center text-center gap-4">
+          <div className="w-full">
+            <h3 className="text-2xl sm:text-3xl font-semibold text-white arabic-text leading-tight">
+              {adhkar.title}
+            </h3>
+            <p className="mt-4 text-base sm:text-lg leading-8 text-[#D8C9A8]">
+              {adhkar.text}
+            </p>
           </div>
           <motion.button
             whileHover={{ scale: 1.08 }}
