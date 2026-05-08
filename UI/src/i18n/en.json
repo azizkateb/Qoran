@@ -1,8 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "prayerTimes": "Prayer Times",
-    "dailyAyah": "Daily Ayah",
+    "prayerTimes": "Prayer Times",    "liveHaram": "Live Haram",    "dailyAyah": "Daily Ayah",
     "features": "Features",
     "quran": "Quran",
     "prayer": "Prayer",
@@ -139,5 +138,19 @@
     "arabic": "العربية",
     "en": "EN",
     "ar": "AR"
+  },
+  "liveHaram": {
+    "badge": "Live Haram Stream",
+    "title": "Live view from Masjid Al-Haram",
+    "description": "Watch the live Haram stream with native HLS support, fullscreen playback, and prayer countdown integration.",
+    "player": {
+      "live": "LIVE",
+      "location": "Al-Haram, Makkah",
+      "statusLabel": "Live Haram Stream",
+      "muted": "Muted",
+      "unmuted": "Unmuted",
+      "loading": "Loading live stream…"
+    }
   }
 }
+

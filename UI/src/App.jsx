@@ -67,7 +67,7 @@ function Navbar() {
           <nav className="flex flex-wrap items-center gap-4">
             <Link to="/" className="transition hover:text-emerald-300">{t('nav.home')}</Link>
             <Link to="/prayer-times" className="transition hover:text-emerald-300">{t('nav.prayerTimes')}</Link>
-            <Link to="/live-haram" className="transition hover:text-emerald-300">Live Haram</Link>
+            <Link to="/live-haram" className="transition hover:text-emerald-300">{t('nav.liveHaram')}</Link>
             <Link to="/adhkar" className="transition hover:text-emerald-300">Adhkar</Link>
             <Link to="/quran" className="transition hover:text-emerald-300">{t('nav.quran')}</Link>
           </nav>
