@@ -1,0 +1,1 @@
+import{r as e}from"./framer-DE5OQYp_.js";import{s as t}from"./index-cTcPNTGD.js";var n=e();function r(){return(0,n.jsx)(`div`,{className:`min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950`,children:(0,n.jsx)(`div`,{className:`relative mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10`,children:(0,n.jsx)(t,{})})})}export{r as default};
