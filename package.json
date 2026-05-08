@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "cd UI && npm run dev",
+    "build": "cd UI && npm run build",
+    "preview": "cd UI && npm run preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "hls.js": "^1.6.16",
+    "i18next": "^26.0.10",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "react-i18next": "^17.0.7",
+    "react-router-dom": "^7.15.0",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^4.2.4",
+    "vite": "^8.0.11"
+  }
+}

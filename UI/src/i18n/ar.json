@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "prayerTimes": "مواقيت الصلاة",
+    "dailyAyah": "آية اليوم",
+    "features": "الميزات",
+    "quran": "القرآن",
+    "prayer": "الصلاة",
+    "ayah": "آية",
+    "support": "الدعم"
+  },
+  "brand": {
+    "name": "Noor",
+    "tagline": "نور يومي",
+    "summary": "رفيق هادئ للصلاة وتأمل القرآن والإيقاع الروحي اليومي."
+  },
+  "hero": {
+    "badge": "نور للتركيز الروحي",
+    "title": "رفيقك الإسلامي اليومي",
+    "subtitle": "مواقيت الصلاة، قراءة القرآن، آية اليوم، والأذكار الأصيلة في تجربة واحدة هادئة.",
+    "readQuran": "اقرأ القرآن",
+    "viewPrayerTimes": "عرض مواقيت الصلاة"
+  },
+  "heroStats": {
+    "title": "مواقيت الصلاة في جميع أنحاء العالم",
+    "subtitle": "مواقيت صلاة دقيقة",
+    "description": "اختر موقعك للحصول على مواقيت صلاة دقيقة محسوبة من مصادر إسلامية موثوقة."
+  },
+  "ayahSection": {
+    "reflectToday": "تأمل اليوم",
+    "ayahVerse": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "ayahQuote": "فإن مع العسر يسرا — سورة الشرح، ٩٤:٦",
+    "ayahOfTheDay": "آية اليوم",
+    "ayahOfTheDayText": "هدوء الذكر يمنح القلب رخاءً وسكينةً للّيل."
+  },
+  "sections": {
+    "prayerTimesLabel": "مواقيت الصلاة",
+    "prayerTimesTitle": "احصل على مواقيت صلاة دقيقة لموقعك",
+    "prayerTimesDesc": "اختر البلد والمدينة للحصول على مواقيت صلاة دقيقة محسوبة باستخدام بيانات فلكية موثوقة.",
+    "quranFeaturesLabel": "ميزات القرآن",
+    "quranFeaturesTitle": "تجربة قرآن حديثة مصممة للسلاسة",
+    "quranFeaturesDesc": "القراءة والاستماع والحفظ والفهم ضمن تصميم مخصص للهواتف الحديثة.",
+    "adhkarLabel": "مجموعة الأذكار",
+    "adhkarTitle": "روتينات هادئة لكل جزء من يومك",
+    "adhkarDesc": "بطاقات مرجعية مع أدعية ذات معنى وتذكيرات لطيفة صباحًا ومساءً.",
+    "mobilePreviewLabel": "معاينة تطبيق الجوال",
+    "mobilePreviewTitle": "تجربة تطبيق مميزة تشعر بالهدوء والحداثة",
+    "mobilePreviewDesc": "تصميم نظيف على الجهاز للصلاة والقراءة والتذكيرات مبني حول الزجاجية الأنيقة.",
+    "premiumDesc": "مصمم ليحافظ على تنظيم جدولك بأدوات أنيقة وسهلة الاستخدام."
+  },
+  "features": {
+    "premium": "مميز",
+    "fullQuranReading": "قراءة كاملة للقرآن",
+    "fullQuranReadingDesc": "طباعة جميلة لتلاوة يومية مريحة.",
+    "audioRecitation": "تلاوة صوتية",
+    "audioRecitationDesc": "قراء أصيلون مع صوت واضح والتنقل بين السور.",
+    "bookmarkSurahs": "حفظ السور",
+    "bookmarkSurahsDesc": "عد سريعًا إلى الآيات التي تهمك.",
+    "tafsirSupport": "دعم التفسير",
+    "tafsirSupportDesc": "ترجمة وسياق تاريخي في نفس المكان."
+  },
+  "adhkar": {
+    "morning": "أذكار الصباح",
+    "evening": "أذكار المساء",
+    "sleep": "أذكار النوم",
+    "prayer": "أذكار الصلاة",
+    "cardText": "انقر لاستكشاف الأذكار اليومية الكاملة ودع إيقاع الذكر يوجه ليلك."
+  },
+  "premiumFeatures": {
+    "accuratePrayerTimes": "مواقيت صلاة دقيقة",
+    "qiblaDirection": "اتجاه القبلة",
+    "dailyNotifications": "إشعارات يومية",
+    "beautifulQuranReader": "قارئ قرآن جميل",
+    "islamicCalendar": "التقويم الإسلامي",
+    "offlineAccess": "الوصول دون اتصال",
+    "surahProgress": "تقدم السورة",
+    "quietReadingMode": "وضع قراءة هادئ",
+    "live": "مباشر"
+  },
+  "footer": {
+    "copyright": "© 2026 Noor. مصمم بعناية للشعور الإسلامي الحديث.",
+    "remember": "\"واذكروني أذكركم\" — القرآن ٢:١٥٢"
+  },
+  "prayerDashboard": {
+    "title": "مواقيت صلاة دقيقة في جميع أنحاء العالم",
+    "description": "اختر موقعك للحصول على مواقيت صلاة دقيقة محسوبة بأساليب إسلامية",
+    "useMyLocation": "استخدام موقعي",
+    "detecting": "جاري تحديد موقعك...",
+    "location": "الموقع",
+    "updated": "تم التحديث منذ {{time}}",
+    "refresh": "تحديث",
+    "failedLoad": "فشل تحميل مواقيت الصلاة. حاول مرة أخرى.",
+    "noTimes": "لا تتوفر مواقيت صلاة",
+    "selectCountryCity": "اختر دولة ومدينة لعرض مواقيت الصلاة",
+    "next": "التالي",
+    "country": "الدولة",
+    "city": "المدينة",
+    "chooseCountry": "اختر دولة",
+    "chooseCity": "اختر مدينة",
+    "selectCountry": "اختر الدولة",
+    "selectCity": "اختر المدينة",
+    "noCountries": "لم يتم العثور على دول",
+    "noCities": "لم يتم العثور على مدن"
+  },
+  "quranHome": {
+    "holyQuran": "القرآن الكريم",
+    "exploreTheQuran": "استكشف القرآن",
+    "selectSurah": "اختر سورة لبدء رحلتك الروحية في كلام الله",
+    "allSurahs": "✨ جميع {{count}} السور متاحة",
+    "unableToLoad": "يتعذر تحميل السور. حاول مرة أخرى.",
+    "cacheWarning": "📱 يتم استخدام البيانات المخزنة. اتصل بالإنترنت لتحديثات جديدة.",
+    "alquran": "القرآن الكريم",
+    "theNobleQuran": "القرآن الكريم",
+    "guidanceQuote": "\"هذا هو الكتاب لا ريب فيه هدى للمتقين\" — القرآن ٢:٢"
+  },
+  "surahReader": {
+    "loading": "جارٍ التحميل...",
+    "notFound": "السورة غير موجودة",
+    "goBack": "العودة",
+    "ayahCount": "{{count}} آيات",
+    "endOfSurah": "نهاية السورة",
+    "mayAllah": "نسأل الله أن يمنحنا الفهم والحكمة.",
+    "noAyahs": "لا توجد آيات متاحة"
+  },
+  "search": {
+    "countries": "ابحث عن دول...",
+    "cities": "ابحث عن مدن..."
+  },
+  "prayerNames": {
+    "Fajr": "الفجر",
+    "Sunrise": "الشروق",
+    "Dhuhr": "الظهر",
+    "Asr": "العصر",
+    "Maghrib": "المغرب",
+    "Isha": "العشاء"
+  },
+  "lang": {
+    "english": "English",
+    "arabic": "العربية",
+    "en": "EN",
+    "ar": "AR"
+  }
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "surahNameArabic": "الفاتحة",
+    "surahNameEnglish": "Al-Fatiha",
+    "meaning": "The Opening",
+    "ayahs": [
+      {"number": 1, "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"},
+      {"number": 2, "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"},
+      {"number": 3, "text": "الرَّحْمَٰنِ الرَّحِيمِ"},
+      {"number": 4, "text": "مَالِكِ يَوْمِ الدِّينِ"},
+      {"number": 5, "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"},
+      {"number": 6, "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ"},
+      {"number": 7, "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ"}
+    ]
+  },
+  {
+    "id": 2,
+    "surahNameArabic": "البقرة",
+    "surahNameEnglish": "Al-Baqarah",
+    "meaning": "The Cow",
+    "ayahs": [
+      {"number": 1, "text": "الم"},
+      {"number": 2, "text": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ"},
+      {"number": 3, "text": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ"}
+    ]
+  },
+  {
+    "id": 3,
+    "surahNameArabic": "آل عمران",
+    "surahNameEnglish": "Ali Imran",
+    "meaning": "The Family of Imran",
+    "ayahs": [
+      {"number": 1, "text": "الم"},
+      {"number": 2, "text": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ"},
+      {"number": 3, "text": "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ وَالْإِنجِيلَ"}
+    ]
+  },
+  {
+    "id": 4,
+    "surahNameArabic": "النساء",
+    "surahNameEnglish": "An-Nisa",
+    "meaning": "The Women",
+    "ayahs": [
+      {"number": 1, "text": "يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُم مِّن نَفْسٍ وَاحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَاءً"}
+    ]
+  },
+  {
+    "id": 5,
+    "surahNameArabic": "المائدة",
+    "surahNameEnglish": "Al-Maidah",
+    "meaning": "The Table",
+    "ayahs": [
+      {"number": 1, "text": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَوْفُوا بِالْعُقُودِ"}
+    ]
+  },
+  {
+    "id": 6,
+    "surahNameArabic": "الأنعام",
+    "surahNameEnglish": "Al-An'am",
+    "meaning": "The Cattle",
+    "ayahs": [
+      {"number": 1, "text": "الْحَمْدُ لِلَّهِ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ"}
+    ]
+  },
+  {
+    "id": 7,
+    "surahNameArabic": "الأعراف",
+    "surahNameEnglish": "Al-A'raf",
+    "meaning": "The Heights",
+    "ayahs": [
+      {"number": 1, "text": "الم"}
+    ]
+  },
+  {
+    "id": 8,
+    "surahNameArabic": "الأنفال",
+    "surahNameEnglish": "Al-Anfal",
+    "meaning": "The Spoils of War",
+    "ayahs": [
+      {"number": 1, "text": "يَسْأَلُونَكَ عَنِ الْأَنفَالِ"}
+    ]
+  },
+  {
+    "id": 9,
+    "surahNameArabic": "التوبة",
+    "surahNameEnglish": "At-Tawbah",
+    "meaning": "The Repentance",
+    "ayahs": [
+      {"number": 1, "text": "بَرَاءَةٌ مِّنَ اللَّهِ وَرَسُولِهِ"}
+    ]
+  },
+  {
+    "id": 10,
+    "surahNameArabic": "يونس",
+    "surahNameEnglish": "Yunus",
+    "meaning": "Jonah",
+    "ayahs": [
+      {"number": 1, "text": "الر"}
+    ]
+  },
+  {
+    "id": 11,
+    "surahNameArabic": "هود",
+    "surahNameEnglish": "Hud",
+    "meaning": "Hud",
+    "ayahs": [
+      {"number": 1, "text": "الر"}
+    ]
+  },
+  {
+    "id": 12,
+    "surahNameArabic": "يوسف",
+    "surahNameEnglish": "Yusuf",
+    "meaning": "Joseph",
+    "ayahs": [
+      {"number": 1, "text": "الر"}
+    ]
+  },
+  {
+    "id": 13,
+    "surahNameArabic": "الرعد",
+    "surahNameEnglish": "Ar-Ra'd",
+    "meaning": "The Thunder",
+    "ayahs": [
+      {"number": 1, "text": "الم"}
+    ]
+  },
+  {
+    "id": 14,
+    "surahNameArabic": "إبراهيم",
+    "surahNameEnglish": "Ibrahim",
+    "meaning": "Abraham",
+    "ayahs": [
+      {"number": 1, "text": "الر"}
+    ]
+  },
+  {
+    "id": 15,
+    "surahNameArabic": "الحجر",
+    "surahNameEnglish": "Al-Hijr",
+    "meaning": "The Rocky Tract",
+    "ayahs": [
+      {"number": 1, "text": "الر"}
+    ]
+  },
+  {
+    "id": 16,
+    "surahNameArabic": "النحل",
+    "surahNameEnglish": "An-Nahl",
+    "meaning": "The Bee",
+    "ayahs": [
+      {"number": 1, "text": "أتى أمر الله فلا تستعجلوه"}
+    ]
+  },
+  {
+    "id": 17,
+    "surahNameArabic": "الإسراء",
+    "surahNameEnglish": "Al-Isra",
+    "meaning": "The Night Journey",
+    "ayahs": [
+      {"number": 1, "text": "سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى"}
+    ]
+  },
+  {
+    "id": 18,
+    "surahNameArabic": "الكهف",
+    "surahNameEnglish": "Al-Kahf",
+    "meaning": "The Cave",
+    "ayahs": [
+      {"number": 1, "text": "الْحَمْدُ لِلَّهِ الَّذِي أَنزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ"}
+    ]
+  },
+  {
+    "id": 19,
+    "surahNameArabic": "مريم",
+    "surahNameEnglish": "Maryam",
+    "meaning": "Mary",
+    "ayahs": [
+      {"number": 1, "text": "كهيعص"}
+    ]
+  },
+  {
+    "id": 20,
+    "surahNameArabic": "طه",
+    "surahNameEnglish": "Ta-Ha",
+    "meaning": "Ta-Ha",
+    "ayahs": [
+      {"number": 1, "text": "طه"}
+    ]
+  }
+]

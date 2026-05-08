@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "prayerTimes": "Prayer Times",
+    "dailyAyah": "Daily Ayah",
+    "features": "Features",
+    "quran": "Quran",
+    "prayer": "Prayer",
+    "ayah": "Ayah",
+    "support": "Support"
+  },
+  "brand": {
+    "name": "Noor",
+    "tagline": "Daily Light",
+    "summary": "A calm companion for prayer, Quran reflection, and daily spiritual rhythm."
+  },
+  "hero": {
+    "badge": "Noor for spiritual focus",
+    "title": "Your Daily Islamic Companion",
+    "subtitle": "Prayer times, Quran reading, daily ayat, and authentic adhkar in one peaceful experience.",
+    "readQuran": "Read Quran",
+    "viewPrayerTimes": "View Prayer Times"
+  },
+  "heroStats": {
+    "title": "Prayer Times Worldwide",
+    "subtitle": "Accurate Islamic Prayer Times",
+    "description": "Select your location below to get precise prayer times calculated using astronomical data from reliable Islamic sources."
+  },
+  "ayahSection": {
+    "reflectToday": "Reflect Today",
+    "ayahVerse": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "ayahQuote": "\"Indeed, with hardship comes ease.\" — Surah Ash-Sharh, 94:6",
+    "ayahOfTheDay": "Ayah of the day",
+    "ayahOfTheDayText": "The calm of remembrance brings softness to the heart and peace to the night."
+  },
+  "sections": {
+    "prayerTimesLabel": "Prayer Times",
+    "prayerTimesTitle": "Find accurate prayer times for your location",
+    "prayerTimesDesc": "Select your country and city to get precise Islamic prayer times calculated using reliable astronomical data.",
+    "quranFeaturesLabel": "Quran Features",
+    "quranFeaturesTitle": "A modern Quran experience built for flow",
+    "quranFeaturesDesc": "Reading, listening, saving, and understanding all within a premium mobile-first design.",
+    "adhkarLabel": "Adhkar Collection",
+    "adhkarTitle": "Peaceful routines for every part of your day",
+    "adhkarDesc": "Quick reference cards with meaningful duaa and subtle reminders throughout the morning and evening.",
+    "mobilePreviewLabel": "Mobile App Preview",
+    "mobilePreviewTitle": "A premium app experience that feels calm and modern",
+    "mobilePreviewDesc": "A clean on-device layout for prayer, reading, and reminders built around beautiful glassmorphism.",
+    "premiumDesc": "Designed to keep your schedule aligned with elegant, easy-to-use tools."
+  },
+  "features": {
+    "premium": "Premium",
+    "fullQuranReading": "Full Quran Reading",
+    "fullQuranReadingDesc": "Beautiful typography for comfortable daily recitation.",
+    "audioRecitation": "Audio Recitation",
+    "audioRecitationDesc": "Authentic reciters with crisp audio and chapter navigation.",
+    "bookmarkSurahs": "Bookmark Surahs",
+    "bookmarkSurahsDesc": "Quickly return to the verses that matter most.",
+    "tafsirSupport": "Tafsir Support",
+    "tafsirSupportDesc": "Contextual translation and historical insights in one place."
+  },
+  "adhkar": {
+    "morning": "Morning Adhkar",
+    "evening": "Evening Adhkar",
+    "sleep": "Sleep Adhkar",
+    "prayer": "Prayer Adhkar",
+    "cardText": "Tap to explore the full daily recitation and let the rhythm of dhikr guide your night."
+  },
+  "premiumFeatures": {
+    "accuratePrayerTimes": "Accurate Prayer Times",
+    "qiblaDirection": "Qibla Direction",
+    "dailyNotifications": "Daily Notifications",
+    "beautifulQuranReader": "Beautiful Quran Reader",
+    "islamicCalendar": "Islamic Calendar",
+    "offlineAccess": "Offline Access",
+    "surahProgress": "Surah progress",
+    "quietReadingMode": "Quiet reading mode",
+    "live": "Live"
+  },
+  "footer": {
+    "copyright": "© 2026 Noor. Crafted with care for modern Islamic well-being.",
+    "remember": "\"And remember Me; I will remember you.\" — Quran 2:152"
+  },
+  "prayerDashboard": {
+    "title": "Accurate Prayer Times Worldwide",
+    "description": "Select your location to get precise prayer times calculated using Islamic methods",
+    "useMyLocation": "Use My Location",
+    "detecting": "Detecting your location...",
+    "location": "Location",
+    "updated": "Updated {{time}}",
+    "refresh": "Refresh",
+    "failedLoad": "Failed to load prayer times. Please try again.",
+    "noTimes": "No prayer times available",
+    "selectCountryCity": "Select a country and city to view prayer times",
+    "next": "Next",
+    "country": "Country",
+    "city": "City",
+    "chooseCountry": "Choose a country",
+    "chooseCity": "Choose a city",
+    "selectCountry": "Select Country",
+    "selectCity": "Select City",
+    "noCountries": "No countries found",
+    "noCities": "No cities found"
+  },
+  "quranHome": {
+    "holyQuran": "Holy Quran",
+    "exploreTheQuran": "Explore the Quran",
+    "selectSurah": "Select a Surah to begin your spiritual journey through the word of Allah",
+    "allSurahs": "✨ All {{count}} Surahs Available",
+    "unableToLoad": "Unable to load Surahs. Please try again.",
+    "cacheWarning": "📱 Using cached data. Connect to internet for fresh updates.",
+    "alquran": "Al-Quran Al-Kareem",
+    "theNobleQuran": "The Noble Quran",
+    "guidanceQuote": "\"This is the Book about which there is no doubt, a guidance for those conscious of Allah\" — Quran 2:2"
+  },
+  "surahReader": {
+    "loading": "Loading...",
+    "notFound": "Surah not found",
+    "goBack": "Go back",
+    "ayahCount": "{{count}} Ayahs",
+    "endOfSurah": "End of Surah",
+    "mayAllah": "May Allah grant us understanding and wisdom.",
+    "noAyahs": "No ayahs available"
+  },
+  "search": {
+    "countries": "Search countries...",
+    "cities": "Search cities..."
+  },
+  "prayerNames": {
+    "Fajr": "Fajr",
+    "Sunrise": "Sunrise",
+    "Dhuhr": "Dhuhr",
+    "Asr": "Asr",
+    "Maghrib": "Maghrib",
+    "Isha": "Isha"
+  },
+  "lang": {
+    "english": "English",
+    "arabic": "العربية",
+    "en": "EN",
+    "ar": "AR"
+  }
+}
