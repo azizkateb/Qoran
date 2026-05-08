@@ -105,6 +105,7 @@
     "holyQuran": "Holy Quran",
     "exploreTheQuran": "Explore the Quran",
     "selectSurah": "Select a Surah to begin your spiritual journey through the word of Allah",
+    "searchPlaceholder": "Search by Surah name or number...",
     "allSurahs": "✨ All {{count}} Surahs Available",
     "unableToLoad": "Unable to load Surahs. Please try again.",
     "cacheWarning": "📱 Using cached data. Connect to internet for fresh updates.",

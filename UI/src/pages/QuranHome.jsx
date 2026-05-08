@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { Search } from 'lucide-react'
 import { SurahCard } from '../components/SurahCard.jsx'
@@ -118,6 +119,8 @@ function QuranHome() {
     setFilteredSurahs(filtered)
   }, [searchQuery, surahs])
 
+  const { t } = useTranslation()
+
   const handleSurahClick = (surahId) => {
     navigate(`/quran/${surahId}`)
   }
@@ -136,19 +139,19 @@ function QuranHome() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/25 bg-emerald-400/10 px-4 py-2 text-xs uppercase tracking-[0.3em] text-emerald-200">
             <span className="h-2 w-2 rounded-full bg-emerald-300" />
-            Holy Quran
+            {t('quranHome.holyQuran')}
           </div>
 
           <h1 className="mt-6 text-5xl font-semibold tracking-tight text-slate-50 sm:text-6xl md:text-7xl">
-            Explore the Quran
+            {t('quranHome.exploreTheQuran')}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-slate-300">
-            Select a Surah to begin your spiritual journey through the word of Allah
+            {t('quranHome.selectSurah')}
           </p>
 
           {surahs.length > 0 && (
             <p className="mx-auto mt-2 text-sm text-emerald-300">
-              ✨ All {surahs.length} Surahs Available
+              {t('quranHome.allSurahs', { count: surahs.length })}
             </p>
           )}
         </motion.div>
@@ -165,7 +168,7 @@ function QuranHome() {
               <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
               <input
                 type="text"
-                placeholder="Search by Surah name or number..."
+                placeholder={t('quranHome.searchPlaceholder')}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full rounded-xl border border-white/10 bg-white/5 py-3 pl-12 pr-4 text-slate-100 placeholder-slate-500 transition focus:border-emerald-400/50 focus:bg-white/10 focus:outline-none focus:ring-1 focus:ring-emerald-400/50"
