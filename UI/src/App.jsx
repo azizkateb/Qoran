@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
